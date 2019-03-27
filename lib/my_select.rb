@@ -1,4 +1,4 @@
-def my_select(collection)
+def my_select(collection)(&block)
  vip = []
  self.each do |element|
  vip << element if block.call(element) == true 
