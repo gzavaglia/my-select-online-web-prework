@@ -2,7 +2,8 @@ def my_select(collection)
 vip = []
 i = 0 
 while i <collection.length 
-  yield(collection[i])
+  item = yield(collection[i])
+  vip.insert(i,item)
   i = i+1 
 end #end while
   vip
