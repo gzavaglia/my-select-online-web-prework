@@ -3,7 +3,8 @@ vip = []
 collection = []
 i = 0 
 while i < collection.size
-vip << yield(collection) if true 
+if collection.
+vip << yield(collection)
 i = i +1 
 end #end while 
 return vip 
