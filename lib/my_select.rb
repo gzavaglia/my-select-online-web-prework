@@ -1,11 +1,9 @@
 def my_select(collection)
-vip = []
 collection = []
 i = 0 
-while i < collection.size
-if collection.
+while i <collection.length 
 yield(collection[i])
-i = i +1 
-end #end while 
-#return vip 
+i = i+1 
+end #end while
+collection
 end #end my_select()
