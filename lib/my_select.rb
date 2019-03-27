@@ -9,7 +9,7 @@
 # return vip 
 # end #end my_select()
 
-  def select(&block)
+  def my_select(&block)
     result =[]
     self.each do |element|
       result << element if block.call(element) == true
