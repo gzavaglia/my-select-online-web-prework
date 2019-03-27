@@ -1,5 +1,5 @@
 def my_select(collection)
-collection = []
+vip = []
 i = 0 
 while i <collection.length 
 yield(collection[i])
