@@ -1,4 +1,4 @@
 def my_select(collection)
- vip = []
+ collection = []
  yield(collection)
 end #end my_select()
