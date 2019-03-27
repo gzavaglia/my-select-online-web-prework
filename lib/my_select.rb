@@ -4,7 +4,7 @@ i = 0
 while i <collection.length 
   item = yield(collection[i])
   if item == true 
-  vip.insert(i,collection[i])
+  vip. << collection[i]
   i = i+1
 else
   i = i+1 
