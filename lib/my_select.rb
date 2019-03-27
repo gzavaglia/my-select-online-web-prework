@@ -2,7 +2,7 @@ def my_select(collection)
  vip = []
  i = 0 
  while i < collection.size
- yield(collection)
+ vip << yield(collection)
  i = i +1 
  end #end while 
  return vip 
